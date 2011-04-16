@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentan.Core", "Sentan.Core\Sentan.Core.csproj", "{23417640-D28C-45C8-AE0A-AA628F8B9CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentan.Web", "Sentan.Web\Sentan.Web.csproj", "{430117B2-C470-484E-BA73-1B0EF3133C4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{23417640-D28C-45C8-AE0A-AA628F8B9CCD}.Release|x86.ActiveCfg = Release|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
