@@ -8,4 +8,4 @@ Sentan is a naive Bayesian classifier which analyses sentences to determine thei
 
 ## Try It Out
 
-A live version of the application is running at (http://sentan.brandlisten.com)
+A live version of the application is running at [http://sentan.brandlisten.com](http://sentan.brandlisten.com)
