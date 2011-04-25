@@ -9,7 +9,7 @@
         <var overall='Model.Sentiment.ToString().ToLower()' />
 
         Overall sentiment is <span class="${overall} bold">${overall}</span> 
-        with probability of <span class="${overall} bold">${Model.OverallProbability}%</span>
+        with probability of <span class="${overall} bold">${Model.OverallProbability}</span>
 
     </div>
 

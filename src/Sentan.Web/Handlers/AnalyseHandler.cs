@@ -5,7 +5,7 @@ namespace Sentan.Web.Handlers
 {
     public class AnalyseHandler
     {
-        public IHandlerResult Post(string text)
+        public IResult Post(string text)
         {
             var model = Analyser.Analyse(text);
             return View.Spark(model, "Views/Results.spark", "Master.spark");

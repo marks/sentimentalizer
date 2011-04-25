@@ -55,11 +55,11 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="tinyweb.framework">
-      <HintPath>..\..\lib\Tinyweb.1.0.1\lib\tinyweb.framework.dll</HintPath>
+    <Reference Include="tinyweb.framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\Tinyweb.2.0.0\lib\tinyweb.framework.dll</HintPath>
     </Reference>
-    <Reference Include="tinyweb.viewengine.spark">
-      <HintPath>..\..\lib\Tinyweb.1.0.1\lib\tinyweb.viewengine.spark.dll</HintPath>
+    <Reference Include="tinyweb.viewengine.spark, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\Tinyweb.2.0.0\lib\tinyweb.viewengine.spark.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -93,7 +93,9 @@
       <Name>Sentan.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Results.spark" />
     <Content Include="Views\Index.spark" />
