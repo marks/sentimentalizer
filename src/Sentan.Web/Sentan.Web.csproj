@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Spark">
-      <HintPath>..\..\lib\Spark.1.5.1\lib\NET40\Spark.dll</HintPath>
+      <HintPath>..\..\lib\Spark.1.5.1.6\lib\NET40\Spark.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap">
       <HintPath>..\..\lib\structuremap.2.6.2\lib\StructureMap.dll</HintPath>
@@ -55,11 +55,14 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="tinyweb.framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\Tinyweb.2.0.0\lib\tinyweb.framework.dll</HintPath>
+    <Reference Include="tinyweb.framework">
+      <HintPath>..\..\lib\Tinyweb.2.2.1\lib\tinyweb.framework.dll</HintPath>
     </Reference>
-    <Reference Include="tinyweb.viewengine.spark, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\Tinyweb.2.0.0\lib\tinyweb.viewengine.spark.dll</HintPath>
+    <Reference Include="tinyweb.viewengine.razor">
+      <HintPath>..\..\lib\Tinyweb.2.2.1\lib\tinyweb.viewengine.razor.dll</HintPath>
+    </Reference>
+    <Reference Include="tinyweb.viewengine.spark">
+      <HintPath>..\..\lib\Tinyweb.2.2.1\lib\tinyweb.viewengine.spark.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
