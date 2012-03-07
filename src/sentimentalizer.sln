@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentan.Core", "Sentan.Core\Sentan.Core.csproj", "{23417640-D28C-45C8-AE0A-AA628F8B9CCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "engine", "engine\engine.csproj", "{23417640-D28C-45C8-AE0A-AA628F8B9CCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentan.Web", "Sentan.Web\Sentan.Web.csproj", "{430117B2-C470-484E-BA73-1B0EF3133C4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{430117B2-C470-484E-BA73-1B0EF3133C4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

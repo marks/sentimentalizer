@@ -3,12 +3,13 @@ using tinyweb.viewengine.spark;
 
 namespace Sentan.Web.Handlers
 {
-    public class AnalyseHandler
+    public class RootHandler
     {
         public IResult Post(string text)
         {
             var model = Analyser.Analyse(text);
-            return View.Spark(model, "Views/Results.spark", "Master.spark");
+			
+			return Result.Json(model);
         }
     }
 }

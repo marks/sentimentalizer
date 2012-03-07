@@ -1,0 +1,9 @@
+task :default => :build
+
+task :build do
+    exec "xbuild sentimentalizer.sln"
+end
+
+task :serve do
+   exec "xsp4"
+end
