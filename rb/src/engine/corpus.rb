@@ -1,13 +1,17 @@
+require '../engine/document'
+
 class Corpus
 
-  @tokens = {}
+  def initialize
+    @tokens = {}
+  end
 
   def entry_count
     @tokens.values.inject(0, :+)
   end
 
   def add document
-    document.foreach { |token|
+    document.each_token { |token|
       @tokens[token] = 0 unless @tokens.has_key? token
       @tokens[token] += 1
     }
@@ -15,6 +19,7 @@ class Corpus
 
   def load_from_directory directory
 
+    puts directory
     Dir.glob("#{directory}/*.txt") { |entry|
       IO.foreach(entry){ |line|
         add Document.new(line)
@@ -24,11 +29,5 @@ class Corpus
 
   def token_count token
     @tokens[token] || 0
-  end
-end
-
-class Document
-
-  def initialise content
   end
 end
