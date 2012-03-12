@@ -1,5 +1,5 @@
-require "../engine/corpus"
-require "../engine/classifier"
+require "#{File.dirname(__FILE__)}/corpus"
+require "#{File.dirname(__FILE__)}/classifier"
 
 class Analyser
 
@@ -7,11 +7,15 @@ class Analyser
   @@negative = Corpus.new
 
   def Analyser.train_positive path
+    puts "Training analyser with +ve sentiment"
     @@positive.load_from_directory path
+    puts "+ve sentiment training complete"
   end
 
   def Analyser.train_negative path
+    puts "Training analyser with -ve sentiment"
     @@negative.load_from_directory path
+    puts "-ve sentiment training complete"
   end
 
   def Analyser.analyse sentence

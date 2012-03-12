@@ -1,4 +1,4 @@
-require '../engine/document'
+require "#{File.dirname(__FILE__)}/document"
 
 class Corpus
 
@@ -18,8 +18,6 @@ class Corpus
   end
 
   def load_from_directory directory
-
-    puts directory
     Dir.glob("#{directory}/*.txt") { |entry|
       IO.foreach(entry){ |line|
         add Document.new(line)

@@ -1,5 +1,5 @@
-require '../engine/document'
-require '../engine/classification_result'
+require "#{File.dirname(__FILE__)}/document"
+require "#{File.dirname(__FILE__)}/classification_result"
 
 class Classifier
 
