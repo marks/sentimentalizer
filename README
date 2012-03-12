@@ -1,0 +1,10 @@
+Sentimentalizer
+===============
+
+Sentiment analysis service unashamedly ripped off of [Sentan](https://github.com/martinrue/Sentan).
+
+Built using
+
+- Mono (xsp, xbuild)
+- TinyWeb
+- Sentan

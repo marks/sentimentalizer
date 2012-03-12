@@ -4,7 +4,7 @@ using System.IO;
 using System.Web;
 using tinyweb.framework;
 
-namespace Sentan.Web
+namespace Sentimentalizer.Api
 {
     public class Global : HttpApplication
     {

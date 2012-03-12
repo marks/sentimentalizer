@@ -1,6 +1,6 @@
 ﻿using Sentan.Core;
 
-namespace Sentan.Web
+namespace Sentimentalizer.Api
 {
     public static class Analyser
     {

@@ -1,14 +1,12 @@
 ﻿using tinyweb.framework;
-using tinyweb.viewengine.spark;
 
-namespace Sentan.Web.Handlers
+namespace Sentimentalizer.Api.Handlers
 {
     public class RootHandler
     {
-        public IResult Post(string text)
+        public IResult Get(string text)
         {
             var model = Analyser.Analyse(text);
-			
 			return Result.Json(model);
         }
     }

@@ -36,6 +36,9 @@ Global
 		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{430117B2-C470-484E-BA73-1B0EF3133C4F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = api\api.csproj
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
