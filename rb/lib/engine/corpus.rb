@@ -11,18 +11,17 @@ class Corpus
   end
 
   def add document
-    document.each_token { |token|
-      @tokens[token] = 0 unless @tokens.has_key? token
-      @tokens[token] += 1
-    }
+    document.each_token do |token|
+      @tokens[token] = token_count(token) + 1
+    end
   end
 
   def load_from_directory directory
-    Dir.glob("#{directory}/*.txt") { |entry|
-      IO.foreach(entry){ |line|
+    Dir.glob("#{directory}/*.txt") do |entry|
+      IO.foreach(entry) do |line|
         add Document.new(line)
-      }
-    }
+      end
+    end
   end
 
   def token_count token
