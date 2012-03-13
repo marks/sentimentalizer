@@ -78,7 +78,7 @@ class Classifier
   def calculate_sentiment probability
     return Sentiment::NEGATIVE if probability <= (UNKNOWN_WORD_PROBABILITY - TOLERANCE)
     return Sentiment::POSITIVE if probability >= (UNKNOWN_WORD_PROBABILITY + TOLERANCE)
-    Sentiment::NEGATIVE
+    Sentiment::NEUTRAL
   end
 
   def combine_probabilities
