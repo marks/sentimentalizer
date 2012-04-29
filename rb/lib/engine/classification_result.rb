@@ -10,9 +10,9 @@ class ClassificationResult
 
   def to_json(*a)
     {
-      text:        @text,
-      probability: @overall_probability,
-      sentiment:   @sentiment
+      :text => @text,
+      :probability => @overall_probability,
+      :sentiment => @sentiment
     }.to_json(*a)
   end
 
@@ -28,8 +28,8 @@ class TokenProbability
 end
 
 class Sentiment
-  POSITIVE = ':)'
-  NEGATIVE = ':('
-  NEUTRAL  = ':|'
+  POSITIVE = 'positive'
+  NEGATIVE = 'negative'
+  NEUTRAL  = 'neutral'
 end
 
